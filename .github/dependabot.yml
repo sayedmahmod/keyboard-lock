@@ -8,6 +8,18 @@ updates:
     groups:
       dev-dependencies:
         dependency-type: development
+    # Both of these majors are gated by a tool that has not caught up yet, so
+    # Dependabot can only ever open a PR that fails before a test runs.
+    # Re-check when electron-vite and typescript-eslint ship support.
+    ignore:
+      # electron-vite 5 pins its peer to vite ^5 || ^6 || ^7, so vite 8 makes
+      # `npm ci` fail with ERESOLVE.
+      - dependency-name: vite
+        update-types: ['version-update:semver-major']
+      # typescript-eslint refuses to load under TS 7 ("does not support TS 7.0"),
+      # which breaks `npm run lint`. Type-checking and tests do pass on TS 7.
+      - dependency-name: typescript
+        update-types: ['version-update:semver-major']
 
   - package-ecosystem: github-actions
     directory: /
