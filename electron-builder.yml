@@ -13,6 +13,11 @@ files:
   - package.json
   - '!**/*.map'
 
+# The release workflow builds unsigned, and electron-builder skips signing
+# altogether in that case, which leaves a bundle macOS calls "damaged".
+# This hook ad-hoc signs it so it stays openable. See scripts/adhoc-sign.mjs.
+afterPack: ./scripts/adhoc-sign.mjs
+
 asar: true
 # The app has no native modules, so a rebuild would only slow the pipeline down.
 npmRebuild: false
