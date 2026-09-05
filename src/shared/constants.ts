@@ -4,7 +4,7 @@ import type { AppSettings } from './types.js';
  * Project home, shown in the settings footer and opened in the system browser.
  * Change this and the `repository` field in package.json when you fork.
  */
-export const APP_HOMEPAGE = 'https://github.com/OWNER/keyboard-lock';
+export const APP_HOMEPAGE = 'https://github.com/schafskaese/keyboard-lock';
 
 /** Shortest lock a user can pick. Anything below is not worth a fullscreen takeover. */
 export const MIN_DURATION_MS = 10_000;

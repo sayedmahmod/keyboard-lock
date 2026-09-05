@@ -8,7 +8,7 @@ next tagged release.
 ## Reporting a vulnerability
 
 Please report privately through
-[GitHub Security Advisories](https://github.com/OWNER/keyboard-lock/security/advisories/new)
+[GitHub Security Advisories](https://github.com/schafskaese/keyboard-lock/security/advisories/new)
 rather than opening a public issue. You can expect an acknowledgement within a
 few days.
 

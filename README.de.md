@@ -10,9 +10,9 @@ Ein kleines, dunkles, plattformübergreifendes Tool, das deine Tastatur genau so
 lange deaktiviert, wie du es möchtest – damit du eine Laptop-Tastatur putzen
 kannst, ohne eine Seite `jjjjjjj` in das zu tippen, was gerade offen war.
 
-[![CI](https://github.com/OWNER/keyboard-lock/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/keyboard-lock/actions/workflows/ci.yml)
-[![Neuestes Release](https://img.shields.io/github/v/release/OWNER/keyboard-lock?sort=semver)](https://github.com/OWNER/keyboard-lock/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/OWNER/keyboard-lock/total)](https://github.com/OWNER/keyboard-lock/releases)
+[![CI](https://github.com/schafskaese/keyboard-lock/actions/workflows/ci.yml/badge.svg)](https://github.com/schafskaese/keyboard-lock/actions/workflows/ci.yml)
+[![Neuestes Release](https://img.shields.io/github/v/release/schafskaese/keyboard-lock?sort=semver)](https://github.com/schafskaese/keyboard-lock/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/schafskaese/keyboard-lock/total)](https://github.com/schafskaese/keyboard-lock/releases)
 [![Lizenz: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Plattformen](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-6c8cff)](#installation)
 [![Sprachen](https://img.shields.io/badge/languages-12-2dd4bf)](#sprachen)
@@ -57,7 +57,7 @@ funktioniert die ganze Zeit weiter – du sitzt also nie fest.
 ## Installation
 
 Hol dir den Build für deine Plattform aus dem
-**[neuesten Release](https://github.com/OWNER/keyboard-lock/releases/latest)**.
+**[neuesten Release](https://github.com/schafskaese/keyboard-lock/releases/latest)**.
 
 | Plattform   | Download                              | Hinweise                                         |
 | ----------- | ------------------------------------- | ------------------------------------------------ |
@@ -208,7 +208,7 @@ Standard zurück.
 Node 20.19 oder neuer. Keine nativen Module, also keine Build-Toolchain nötig.
 
 ```bash
-git clone https://github.com/OWNER/keyboard-lock.git
+git clone https://github.com/schafskaese/keyboard-lock.git
 cd keyboard-lock
 npm ci
 npm run dev
@@ -244,7 +244,7 @@ Pull Requests sind willkommen. [CONTRIBUTING.md](CONTRIBUTING.md) enthält
 Setup, Befehle und die eine Regel, die über allem steht: **Ein Mensch muss seine
 Tastatur immer zurückbekommen können.**
 
-- Fehler gefunden? [Issue öffnen](https://github.com/OWNER/keyboard-lock/issues/new/choose)
+- Fehler gefunden? [Issue öffnen](https://github.com/schafskaese/keyboard-lock/issues/new/choose)
 - Sicherheitsmeldung? [SECURITY.md](SECURITY.md)
 - Sprache hinzufügen? [docs/TRANSLATING.md](docs/TRANSLATING.md)
 

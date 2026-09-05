@@ -33,7 +33,7 @@ they deem inappropriate.
 
 Instances of abusive, harassing or otherwise unacceptable behaviour may be
 reported to the maintainers through a
-[private security advisory](https://github.com/OWNER/keyboard-lock/security/advisories/new)
+[private security advisory](https://github.com/schafskaese/keyboard-lock/security/advisories/new)
 or by contacting a maintainer directly. All complaints will be reviewed and
 investigated promptly and fairly.
 

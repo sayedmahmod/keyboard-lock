@@ -22,4 +22,4 @@ First release.
 - Keeps the display awake for the duration of a lock.
 - Reproducible app icon and README screenshots, both generated from source.
 
-[1.0.0]: https://github.com/OWNER/keyboard-lock/releases/tag/v1.0.0
+[1.0.0]: https://github.com/schafskaese/keyboard-lock/releases/tag/v1.0.0

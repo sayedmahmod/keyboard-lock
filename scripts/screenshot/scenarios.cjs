@@ -17,7 +17,7 @@ const environment = (locale, platform = 'darwin') => ({
   electronVersion: '38.0.0',
   systemLocale: locale,
   displayCount: 1,
-  homepage: 'https://github.com/OWNER/keyboard-lock',
+  homepage: 'https://github.com/schafskaese/keyboard-lock',
 });
 
 const APP_WIDTH = 440;

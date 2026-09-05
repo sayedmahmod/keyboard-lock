@@ -10,9 +10,9 @@ A small, dark, cross-platform app that disables your keyboard for as long as you
 ask it to — so you can actually clean a laptop keyboard without typing a page of
 `jjjjjjj` into whatever was open.
 
-[![CI](https://github.com/OWNER/keyboard-lock/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/keyboard-lock/actions/workflows/ci.yml)
-[![Latest release](https://img.shields.io/github/v/release/OWNER/keyboard-lock?sort=semver)](https://github.com/OWNER/keyboard-lock/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/OWNER/keyboard-lock/total)](https://github.com/OWNER/keyboard-lock/releases)
+[![CI](https://github.com/schafskaese/keyboard-lock/actions/workflows/ci.yml/badge.svg)](https://github.com/schafskaese/keyboard-lock/actions/workflows/ci.yml)
+[![Latest release](https://img.shields.io/github/v/release/schafskaese/keyboard-lock?sort=semver)](https://github.com/schafskaese/keyboard-lock/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/schafskaese/keyboard-lock/total)](https://github.com/schafskaese/keyboard-lock/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-6c8cff)](#install)
 [![Languages](https://img.shields.io/badge/languages-12-2dd4bf)](#languages)
@@ -54,7 +54,7 @@ whole time, so you are never trapped.
 ## Install
 
 Grab the build for your platform from the
-**[latest release](https://github.com/OWNER/keyboard-lock/releases/latest)**.
+**[latest release](https://github.com/schafskaese/keyboard-lock/releases/latest)**.
 
 | Platform    | Download                                 | Notes                                     |
 | ----------- | ---------------------------------------- | ----------------------------------------- |
@@ -214,7 +214,7 @@ and an unusable unlock shortcut falls back to the default.
 Node 20.19 or newer. No native modules, so no build toolchain to install.
 
 ```bash
-git clone https://github.com/OWNER/keyboard-lock.git
+git clone https://github.com/schafskaese/keyboard-lock.git
 cd keyboard-lock
 npm ci
 npm run dev
@@ -250,7 +250,7 @@ Pull requests welcome. [CONTRIBUTING.md](CONTRIBUTING.md) has the setup, the
 commands and the one rule that outranks everything else: **a user must always be
 able to get their keyboard back.**
 
-- Found a bug? [Open an issue](https://github.com/OWNER/keyboard-lock/issues/new/choose)
+- Found a bug? [Open an issue](https://github.com/schafskaese/keyboard-lock/issues/new/choose)
 - Security report? [SECURITY.md](SECURITY.md)
 - Adding a language? [docs/TRANSLATING.md](docs/TRANSLATING.md)
 

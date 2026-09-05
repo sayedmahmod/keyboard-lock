@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Question or idea
-    url: https://github.com/OWNER/keyboard-lock/discussions
+    url: https://github.com/schafskaese/keyboard-lock/discussions
     about: Ask anything that is not a bug report.
